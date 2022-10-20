@@ -3,7 +3,7 @@ import Button from "./Button.js";
 
 const About = () => {
   return (
-    <section className="grid grid-cols-2 w-4/6 mx-auto py-20 gap-8" id="#about">
+    <section className="grid grid-cols-2 w-4/6 mx-auto py-20 gap-8" id="about">
       <article className="flex flex-col justify-center items-center gap-4 py-10 px-8">
         <h2 className="text-primary font-bold text-4xl mb-6 tracking-wider">
           About

@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
+import Services from "../components/Services";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
         <Navbar />
         <Hero />
         <About />
+        <div className="bg-secondary py-8 bg-opacity-60">
+          <Services />
+        </div>
       </main>
     </div>
   );
