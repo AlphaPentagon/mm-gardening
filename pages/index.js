@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Services from "../components/Services";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -20,7 +22,9 @@ export default function Home() {
         <div className="bg-secondary py-8 bg-opacity-60">
           <Services />
         </div>
+        <Contact />
       </main>
+      <Footer />
     </div>
   );
 }

@@ -6,7 +6,7 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 const Hero = () => {
   return (
     <section
-      id="#home"
+      id="home"
       className="relative flex flex-col justify-center items-center bg-secondary bg-opacity-60 py-14 mb-8"
     >
       <div className=" rounded-sm brightness-95 drop-shadow-lg relative bg-[url('/images/planter.jpg')] w-5/6 h-[750px] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center">
