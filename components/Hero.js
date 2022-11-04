@@ -1,7 +1,5 @@
-import Image from "next/image";
 import Button from "./Button";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -18,7 +16,9 @@ const Hero = () => {
             <p className="text-white text-2xl mb-10 tracking-wide">
               Your local gardeners
             </p>
-            <Button text="Contact" />
+            <a href="#contact">
+              <Button text="Contact" />
+            </a>
           </div>
         </div>
       </div>
